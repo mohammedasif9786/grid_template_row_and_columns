@@ -1,0 +1,15 @@
+#grid{
+    display: grid;
+   
+    grid-template-rows:repeat(4, 100px);
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap : 10px;
+    text-align: center;
+}
+.in{
+    border: 5px solid #5c7564;
+    background-color: #2c8767;
+    text-transform: capitalize;
+    
+    
+}
